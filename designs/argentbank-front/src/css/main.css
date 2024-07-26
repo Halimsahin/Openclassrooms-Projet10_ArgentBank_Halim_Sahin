@@ -276,6 +276,20 @@ body {
   color: #fff;
 }
 
+.sign-up-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sign-up-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sign-up-link a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 720px) {
   .account {
     flex-direction: row;
