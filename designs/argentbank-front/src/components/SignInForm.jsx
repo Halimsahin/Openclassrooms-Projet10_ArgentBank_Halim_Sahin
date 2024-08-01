@@ -48,6 +48,10 @@ export default function SignInForm() {
             required
           />
         </div>
+        <div className="sign-up-link">
+        <a href="/signup">Sign Up</a>
+      </div>
+      <br />
         <div className="input-remember">
           <input type="checkbox" id="remember-me" />
           <label htmlFor="remember-me">Remember me</label>
