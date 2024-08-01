@@ -54,7 +54,8 @@ export default function UserHeader() {
                 required
               />
               <p>{firstName}</p>
-              <p>{lastName}</p>  
+              <p>{lastName}</p>
+              <p>{userName}</p>
             </div>
             <div className="editNameButtons">
               <button className="save-button" type="submit">
